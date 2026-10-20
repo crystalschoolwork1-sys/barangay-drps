@@ -1,0 +1,15 @@
+   {
+     "name": "barangay-document-backend",
+     "version": "1.0.0",
+     "main": "server.js",
+     "scripts": {
+       "start": "node server.js",
+       "create-staff": "node create-staff.js"
+     },
+     "engines": {
+       "node": "20.x"
+     },
+     "dependencies": {
+       "bcryptjs": "^2.4.3"
+     }
+   }
